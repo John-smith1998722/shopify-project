@@ -1,0 +1,55 @@
+<style>
+  .cs-image-with-text .product-images {
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+  }
+  .cs-image-with-text .product {
+    display:flex;
+    flex-direction:row;
+    width: 100%;
+  }
+  .cs-image-with-text .product-text {
+    text-align:center;
+    width: 100%;
+  }
+</style>
+
+<section class="product-images">
+    <div>
+        <div class="product-text">{{ section.settings.text_custom }}</div>
+        <div class="product">            
+            <img src="{{ section.settings.image_one | image_url : width:500}}" alt="custom-iamge">
+            <img src="{{ section.settings.image_two |   image_url : width:500 }}" alt="custom-image">
+        </div>
+    </div>
+</section>
+
+{% schema %}
+  {
+    "name": "product section",
+    "tag": "section",
+    "class": "cs-image-with-text",
+    "settings": [
+      {
+        "type": "text",
+        "id": "text_custom",
+        "label": "Text"
+      },{
+        "type": "image_picker",
+        "id" : "image_one",
+        "label": "Image"
+      },
+      {
+        "type": "image_picker",
+        "id" : "image_two",
+        "label": "Image"
+      },
+    ],
+    "presets": [
+      {
+        "name": "product section"
+      }
+    ]
+  }
+{% endschema %}

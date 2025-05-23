@@ -1,1 +1,98 @@
-{"sections":{"image_banner":{"type":"image-banner","blocks":{"text_nyTYR4":{"type":"text","settings":{"text":"Give customers details about the banner image(s) or content on the template.","text_style":"body"}}},"block_order":["text_nyTYR4"],"settings":{"image":"shopify:\/\/shop_images\/sale_hp_2_png_77766777-96b6-4e57-a083-c909a53df8ff.jpg","image_overlay_opacity":40,"image_height":"large","image_behavior":"none","desktop_content_position":"bottom-center","desktop_content_alignment":"center","show_text_box":false,"color_scheme":"scheme-3","stack_images_on_mobile":false,"mobile_content_alignment":"center","show_text_below":false}},"rich_text_DfK6mb":{"type":"rich-text","blocks":{"heading_DmPqa3":{"type":"heading","settings":{"heading":"Talk about your brand","heading_size":"h1"}},"text_Fhwhf7":{"type":"text","settings":{"text":"<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"}},"button_kTff6f":{"type":"button","settings":{"button_label":"Button label","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading_DmPqa3","text_Fhwhf7","button_kTff6f"],"name":"t:sections.rich-text.presets.name","settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":40,"padding_bottom":52}}},"order":["image_banner","rich_text_DfK6mb"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "text_nyTYR4": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_nyTYR4"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/sale_hp_2_png_77766777-96b6-4e57-a083-c909a53df8ff.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "image_behavior": "none",
+        "desktop_content_position": "bottom-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-3",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "rich_text_DfK6mb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DmPqa3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_Fhwhf7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_kTff6f": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_DmPqa3",
+        "text_Fhwhf7",
+        "button_kTff6f"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 68,
+        "padding_bottom": 52
+      }
+    },
+    "product_section_ktXWX3": {
+      "type": "product-section",
+      "name": "product section",
+      "settings": {
+        "text_custom": "If you wanna goods, you can select",
+        "image_one": "shopify://shop_images/buck_960x_jpg.jpg",
+        "image_two": "shopify://shop_images/pamelia_960x_jpg.jpg"
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "rich_text_DfK6mb",
+    "product_section_ktXWX3"
+  ]
+}
